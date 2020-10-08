@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3909509756263326322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0735a1821bd133459220830ccd00408, type: 3}
+  m_Name: Sight Range
+  m_EditorClassIdentifier: 
+  value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99dae894b93f4f2086cc2618ddd9016c, type: 3}
+  m_Name: Enemy Variant
+  m_EditorClassIdentifier: 
+  audio: {fileID: 11400000, guid: 167f5409f2f32aa4ca29cebd98256922, type: 2}
+  particle: {fileID: 11400000, guid: 6da3806d25da1504f989d72454f59fc9, type: 2}
+  energy: {fileID: 1316457841074725579, guid: f04640d9ccc4b5a449cba0f13b448d4d, type: 2}
+  damage: {fileID: -4422408442552265909, guid: f04640d9ccc4b5a449cba0f13b448d4d, type: 2}
+  speed: {fileID: -671565205379516895, guid: f04640d9ccc4b5a449cba0f13b448d4d, type: 2}
+  sightRange: {fileID: -3909509756263326322}
+  gravityModifier: {fileID: 11400000, guid: 20fa2e6cb994d904485bd42826d9b84f, type: 2}
