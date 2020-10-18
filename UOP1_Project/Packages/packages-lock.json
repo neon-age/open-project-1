@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.av.smart-hierarchy": {
+      "version": "file:Variables",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.addressables": {
       "version": "1.8.5",
       "depth": 0,
